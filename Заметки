@@ -1,0 +1,4 @@
+Запустил приложение, вылезла ошибка "AttributeError: module 'wtforms.validators' has no attribute 'required'.
+Заменил артибут wtforms required на input_required (), более новая версия, старая версия wtforms уже не поддерживается.
+Упаковал приложение в docker. Убедился что контейнер запускается локально.
+Через docker-compose так же все работало.
